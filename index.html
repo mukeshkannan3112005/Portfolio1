@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mukesh Kannan - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .about, .skills, .projects, .contact {
+            margin-bottom: 60px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .project-item {
+            margin-bottom: 20px;
+        }
+        .project-item h3 {
+            margin-top: 0;
+        }
+        /* Style for Skills list */
+        ul.skills-list {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        /* Responsive footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media(max-width: 600px){
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            footer {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mukesh Kannan</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Mukesh Kannan, a passionate software development, web technologies, and innovative projects. I love learning new skills, tackling challenging problems, and collaborating with others to build impactful solutions. Welcome to my portfolio where I showcase my work and skills.</p>
+</section>
+
+<!-- New Skills Section -->
+<section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+        <li>Programming Languages: C, C++, Java, Python</li>
+        <li>Web Technologies: HTML, CSS, JavaScript, Bootstrap</li>
+        <li>Frameworks & Libraries: React, Angular (basic)</li>
+        <li>Databases: MySQL, MongoDB (basic)</li>
+        <li>Hardware: Microcontroller programming (8051, Arduino)</li>
+        <li>Tools: Git, Visual Studio Code, Arduino IDE</li>
+        <li>Other Skills: Problem Solving, Team Collaboration, Project Management</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-item">
+        <h3>Fitness Tracker</h3>
+        <p>It is a simple desktop application for monitoring and maintaining health by uploading the daily intakes in the system. It helps us stay focused on our goals and provides continuous progress updates.</p>
+    </div>
+    <div class="project-item">
+        <h3>Water Wise</h3>
+        <p>It is a hardware project utilizing the 8051 microcontroller and pH sensors to assess water quality. Based on the readings, water can be used for different purposes.</p>
+    </div>
+    <!-- Add more projects as needed -->
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach me at: <a href="mailto:mukeshkannan3112005@gmail.com">mukeshkannan3112005@gmail.com</a></p>
+    <p>Follow me on 
+        <a href="https://github.com/mukeshkannan" target="_blank">GitHub</a>, 
+        <a href="https://linkedin.com/in/mukeshkannan" target="_blank">LinkedIn</a>.
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mukesh Kannan. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
